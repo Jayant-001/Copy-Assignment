@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #424242;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.home-container {
+  gap: 10px;
+  display: flex;
+  min-height: 70vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.box {
+  box-shadow: 0px 0px 33px 20px #0000002e;
+  border: 1px solid black;
+  min-width: 300px;
+}
+
+.upload-container form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.upload-container form input {
+  height: 30px;
+  border: none;
+}
+
+.upload-container form textarea {
+  height: 100px;
+  border: none;
+  resize: vertical;
+}
+
+.search-container {
+}
+
+.search-container form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.search-container form input {
+  height: 30px;
+}
+
+/* ================================================================= Data ================================================================= */
+.data-container {
+  display: flex;
+  border: 1px solid red;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.file-container {
+  color: white;
+  /* flex-grow: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.text-container {
+  /* flex-grow: 2; */
+  /* flex: 3; */
+  /* min-height: 100px; */
+  /* border: 1px solid blue; */
+}
+
+/* ================================================================= File Box================================================================= */
+.file-box {
+  /* border-bottom: 1px solid yellow; */
+  /* border-radius: 20px; */
+  /* margin: 10px 0; */
+}
+
+.file-box a {
+color: white;
+text-decoration: none;
+}
+
+.file-box a:hover {
+  color: rgb(232, 138, 138);
+}
+
+#file-name {
+  margin-left: 7px;
+}
